@@ -1,0 +1,16 @@
+# Group 10 outline audit
+
+The previous `midterm.zip` used the five intended FiinProX indices and followed a self-contained univariate workflow. The new Group 10 outline adds two research questions about cross-sector interactions and statistical significance. Its opening question and list name five sectors, while several headings and pair examples still say four. This revision uses all five supplied series and all ten unordered sector pairs.
+
+| Outline | Evidence from the previous ZIP | Change in the Group 10 version |
+|---|---|---|
+| Output 1 · Source and synchronized returns | It filtered the five workbook labels, validated prices and dates, synchronized close-to-close returns, and exported per-sector prices. | Adds explicit absolute and squared returns and a source/coverage note. The five workbook exports remain the raw inputs. |
+| Output 2 · Stylized facts | It had descriptive measures, Stationarity/Jarque–Bera/ACF/Ljung–Box/ARCH tests, and plots of levels and returns. | Adds variance and quantiles, histogram and boxplot, absolute-return diagnostics, a leverage screen, aggregation checks, and a finding-to-model decision table. |
+| Output 3 · Conditional mean | It compared ARMA orders by BIC but later volatility forecasts used separately fitted constant means. | The selected train-only mean equations produce the innovations for the volatility fits and provide a common conditional mean during rolling forecasts. Adds mean ACF/PACF and residual ARCH diagnostics. |
+| Output 4 · Volatility and persistence | It fitted EWMA, Gaussian and Student-t GARCH, GJR and EGARCH. It reported persistence and approximate half-lives for GARCH-t. | Adds a rolling-SD benchmark and a common-spec comparison of volatility, shock sensitivity, persistence, half-life and asymmetry. |
+| Output 5 · Multivariate interactions | It reported unconditional return correlations. Its Output 5 was rolling univariate forecast scoring. | Output 5 now covers VAR lag selection, stability, Granger tests, impulse responses and FEVD, plus CCC/DCC correlations from GARCH margins. |
+| Output 6 · Downside risk | It forecast one-session VaR/ES at 95% and 99% from conditional volatility models. | Adds historical, rolling normal and filtered historical benchmarks, with risk rankings and the duration of high-VaR spells. |
+| Output 7 · Evaluation and significance | It used QLIKE/MSE, Kupiec, Christoffersen, an indicative Basel traffic light, and HAC on an ES calibration moment. | Forecast scoring moves here. Adds MAE, DM comparisons, DQ, joint VaR–ES FZ0, paired block-bootstrap tests with Holm, and model, subperiod and window robustness. |
+| Problem 3 · Economic interpretation | It mainly compared rankings and described diagnostic limits. | Adds results-linked conclusions and cited economic context, with implications, limits and research extensions. |
+
+The outline lists EVT, skewed-t, VECH/BEKK and external variables as possible extensions. The submitted analysis uses the main specified model families and the five bundled exports. Provider documentation describes Vietnam-adapted ICB and market-cap weighting. The raw exports have no constituent histories or weights, so constituent concentration, binding price limits and historical methodology changes remain data limitations.

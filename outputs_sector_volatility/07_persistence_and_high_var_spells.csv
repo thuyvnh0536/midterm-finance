@@ -1,0 +1,6 @@
+﻿sector,model,confidence_pct,holdout_quantile,var_threshold_pct,n_test,n_high_var_sessions,n_spells,mean_observed_duration_sessions,median_observed_duration_sessions,p90_observed_duration_sessions,max_observed_duration_sessions,persistence,persistence_rank_high_to_low,rank_mean_observed_duration_sessions_high_to_low,rank_max_observed_duration_sessions_high_to_low
+Banks L1,GARCH-t,99,0.9,4.7546282478264335,742,75,12,6.25,3.5,14.9,20,0.9816431442392637,1.0,1.0,2.0
+Technology L1,GARCH-t,99,0.9,6.422768324779431,742,75,14,5.357142857142857,4.0,14.30000000000001,19,0.9780137721830764,2.0,3.0,4.0
+Consumer Goods L1,GARCH-t,99,0.9,3.113389908171193,742,75,12,6.25,3.0,17.900000000000006,25,0.9557077445536745,4.0,1.0,1.0
+Real Estate L2,GARCH-t,99,0.9,7.012185917645,742,75,22,3.409090909090909,1.0,9.800000000000004,13,0.9543083944434609,5.0,5.0,5.0
+Steel L4,GARCH-t,99,0.9,5.741566560237151,742,75,16,4.6875,1.5,14.5,20,0.9749869259863062,3.0,4.0,2.0

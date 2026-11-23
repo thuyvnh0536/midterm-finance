@@ -1,0 +1,6 @@
+﻿Index/Sector,Raw rows,Invalid date,Invalid close,Redundant valid rows,First date,Last date,Valid closes,Missing within observed span,Unchanged closes,|Daily simple change| > 10%,Returns,Status
+Banks L1,2967,0,0,0,2015-01-05,2026-11-20,2967,0,6,0,2966,Đủ dữ liệu mô hình
+Technology L1,2967,0,0,0,2015-01-05,2026-11-20,2967,0,11,0,2966,Đủ dữ liệu mô hình
+Consumer Goods L1,2967,0,0,0,2015-01-05,2026-11-20,2967,0,5,0,2966,Đủ dữ liệu mô hình
+Real Estate L2,2967,0,0,0,2015-01-05,2026-11-20,2967,0,7,0,2966,Đủ dữ liệu mô hình
+Steel L4,2967,0,0,0,2015-01-05,2026-11-20,2967,0,4,0,2966,Đủ dữ liệu mô hình

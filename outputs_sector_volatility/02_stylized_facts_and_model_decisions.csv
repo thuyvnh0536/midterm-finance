@@ -1,0 +1,36 @@
+﻿Index/Sector,Stylized fact,Sample evidence,Model decision
+Banks L1,1. Price and return stationarity,Log prices consistent with a unit root; returns consistent with level stationarity,Use daily log returns as inputs. Review stationarity before fitting.
+Banks L1,2. Heavy tails,"Excess kurtosis 3.71, JB log10(p) -391.7",Compare Gaussian and Student-t innovations.
+Banks L1,3. Gain/loss asymmetry,Skewness -0.47; 1% / 99% quantiles -5.06% / 4.31%,Compare empirical and parametric downside tails. Treat daily skewness as descriptive.
+Banks L1,4. Linear dependence,Max |ACF| at lags 1–10 is 0.050; Ljung–Box p=0.00859,Check whether a small ARMA improves BIC and residual diagnostics.
+Banks L1,5. Volatility clustering,Absolute/squared Ljung–Box p=1.25e-162/1.48e-139; ARCH–LM p=1.58e-63,Compare EWMA and GARCH after checking ARCH effects on mean residuals.
+Banks L1,6. Asymmetric volatility response,"Negative minus positive slope +0.795, exploratory HAC p=1.08e-05","Compare GJR-GARCH and EGARCH, then read fitted asymmetry and fit diagnostics."
+Banks L1,7. Aggregational Gaussianity,Excess kurtosis at 1 / 5 / 20 sessions is 3.71 / 3.50 / 2.02,Check distributional assumptions at each horizon. Forecast VaR directly at one session.
+Technology L1,1. Price and return stationarity,Log prices consistent with a unit root; returns consistent with level stationarity,Use daily log returns as inputs. Review stationarity before fitting.
+Technology L1,2. Heavy tails,"Excess kurtosis 3.62, JB log10(p) -351.8",Compare Gaussian and Student-t innovations.
+Technology L1,3. Gain/loss asymmetry,Skewness -0.11; 1% / 99% quantiles -4.46% / 4.29%,Compare empirical and parametric downside tails. Treat daily skewness as descriptive.
+Technology L1,4. Linear dependence,Max |ACF| at lags 1–10 is 0.044; Ljung–Box p=0.0404,Check whether a small ARMA improves BIC and residual diagnostics.
+Technology L1,5. Volatility clustering,Absolute/squared Ljung–Box p=2.38e-118/3.6e-89; ARCH–LM p=1.06e-41,Compare EWMA and GARCH after checking ARCH effects on mean residuals.
+Technology L1,6. Asymmetric volatility response,"Negative minus positive slope +0.526, exploratory HAC p=0.00387","Compare GJR-GARCH and EGARCH, then read fitted asymmetry and fit diagnostics."
+Technology L1,7. Aggregational Gaussianity,Excess kurtosis at 1 / 5 / 20 sessions is 3.62 / 1.50 / 1.71,Check distributional assumptions at each horizon. Forecast VaR directly at one session.
+Consumer Goods L1,1. Price and return stationarity,Log prices consistent with a unit root; returns consistent with level stationarity,Use daily log returns as inputs. Review stationarity before fitting.
+Consumer Goods L1,2. Heavy tails,"Excess kurtosis 6.44, JB log10(p) -1157.0",Compare Gaussian and Student-t innovations.
+Consumer Goods L1,3. Gain/loss asymmetry,Skewness -0.66; 1% / 99% quantiles -3.10% / 2.39%,Compare empirical and parametric downside tails. Treat daily skewness as descriptive.
+Consumer Goods L1,4. Linear dependence,Max |ACF| at lags 1–10 is 0.114; Ljung–Box p=9.79e-08,Check whether a small ARMA improves BIC and residual diagnostics.
+Consumer Goods L1,5. Volatility clustering,Absolute/squared Ljung–Box p=6.1e-153/1.61e-102; ARCH–LM p=1.69e-62,Compare EWMA and GARCH after checking ARCH effects on mean residuals.
+Consumer Goods L1,6. Asymmetric volatility response,"Negative minus positive slope +0.607, exploratory HAC p=0.000812","Compare GJR-GARCH and EGARCH, then read fitted asymmetry and fit diagnostics."
+Consumer Goods L1,7. Aggregational Gaussianity,Excess kurtosis at 1 / 5 / 20 sessions is 6.44 / 2.37 / 3.91,Check distributional assumptions at each horizon. Forecast VaR directly at one session.
+Real Estate L2,1. Price and return stationarity,Log prices consistent with a unit root; returns consistent with level stationarity,Use daily log returns as inputs. Review stationarity before fitting.
+Real Estate L2,2. Heavy tails,"Excess kurtosis 3.27, JB log10(p) -293.1",Compare Gaussian and Student-t innovations.
+Real Estate L2,3. Gain/loss asymmetry,Skewness -0.27; 1% / 99% quantiles -4.37% / 3.99%,Compare empirical and parametric downside tails. Treat daily skewness as descriptive.
+Real Estate L2,4. Linear dependence,Max |ACF| at lags 1–10 is 0.112; Ljung–Box p=1.25e-06,Check whether a small ARMA improves BIC and residual diagnostics.
+Real Estate L2,5. Volatility clustering,Absolute/squared Ljung–Box p=5.59e-238/2.1e-207; ARCH–LM p=6.3e-77,Compare EWMA and GARCH after checking ARCH effects on mean residuals.
+Real Estate L2,6. Asymmetric volatility response,"Negative minus positive slope +0.277, exploratory HAC p=0.181",Keep symmetric GARCH as the baseline. Use asymmetric models for comparison.
+Real Estate L2,7. Aggregational Gaussianity,Excess kurtosis at 1 / 5 / 20 sessions is 3.27 / 1.27 / 3.54,Check distributional assumptions at each horizon. Forecast VaR directly at one session.
+Steel L4,1. Price and return stationarity,Log prices consistent with a unit root; returns consistent with level stationarity,Use daily log returns as inputs. Review stationarity before fitting.
+Steel L4,2. Heavy tails,"Excess kurtosis 2.11, JB log10(p) -119.8",Compare Gaussian and Student-t innovations.
+Steel L4,3. Gain/loss asymmetry,Skewness -0.10; 1% / 99% quantiles -5.55% / 5.15%,Compare empirical and parametric downside tails. Treat daily skewness as descriptive.
+Steel L4,4. Linear dependence,Max |ACF| at lags 1–10 is 0.052; Ljung–Box p=0.112,Use a constant mean as a starting point and diagnose residuals.
+Steel L4,5. Volatility clustering,Absolute/squared Ljung–Box p=3.31e-128/4.11e-149; ARCH–LM p=1.77e-63,Compare EWMA and GARCH after checking ARCH effects on mean residuals.
+Steel L4,6. Asymmetric volatility response,"Negative minus positive slope +0.582, exploratory HAC p=0.00825","Compare GJR-GARCH and EGARCH, then read fitted asymmetry and fit diagnostics."
+Steel L4,7. Aggregational Gaussianity,Excess kurtosis at 1 / 5 / 20 sessions is 2.11 / 2.40 / 1.38,Check distributional assumptions at each horizon. Forecast VaR directly at one session.

@@ -1,0 +1,3 @@
+﻿model,observations,alpha_dcc,beta_dcc,alpha_plus_beta,gaussian_correlation_loglik,fit_start,fit_end,gain_from_CCC,at_persistence_constraint
+CCC-GARCH-t,2223,0.0,,,1858.2489453176104,2015-01-07,2023-11-27,0.0,False
+DCC-GARCH-t,2223,0.026936761780862503,0.9514640746778403,0.9784008364587028,2027.995454744095,2015-01-07,2023-11-27,169.74650942648464,False

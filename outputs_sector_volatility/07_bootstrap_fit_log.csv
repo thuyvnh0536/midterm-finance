@@ -1,0 +1,11 @@
+﻿block_sessions,sector,n_matched_training,reps_requested,reps_converged,reps_near_boundary,point_fit_status
+20,Banks L1,2223,399,399,0,Fit
+20,Technology L1,2223,399,399,0,Fit
+20,Consumer Goods L1,2223,399,399,0,Fit
+20,Real Estate L2,2223,399,399,0,Fit
+20,Steel L4,2223,399,399,0,Fit
+40,Banks L1,2223,199,199,0,Fit
+40,Technology L1,2223,199,199,0,Fit
+40,Consumer Goods L1,2223,199,199,0,Fit
+40,Real Estate L2,2223,199,199,0,Fit
+40,Steel L4,2223,199,199,0,Fit
